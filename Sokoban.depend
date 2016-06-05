@@ -1,0 +1,193 @@
+# depslib dependency file v1.0
+1464594097 source:d:\lab\oop\sokoban\src\application.cpp
+	"Application.h"
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	"MenuSettings.h"
+
+1464563098 d:\lab\oop\sokoban\src\application.h
+	"AppSettings.h"
+	"Window.h"
+	"Game.h"
+	"Menu.h"
+
+1464447807 d:\lab\oop\sokoban\src\appsettings.h
+
+1464430831 d:\lab\oop\sokoban\src\window.h
+	<SDL.h>
+
+1464682542 d:\lab\oop\sokoban\src\game.h
+	<map>
+	<SDL.h>
+	"Drawable.h"
+	"ObjectTexture.h"
+	"game/ObjectType.h"
+	"game/Room.h"
+	"game/RoomLoader.h"
+
+1464562917 d:\lab\oop\sokoban\src\drawable.h
+	"Window.h"
+
+1464519188 d:\lab\oop\sokoban\src\objecttexture.h
+	"Texture.h"
+
+1464897766 d:\lab\oop\sokoban\src\texture.h
+	<SDL.h>
+	"Window.h"
+
+1464518308 d:\lab\oop\sokoban\src\game\objecttype.h
+
+1464627462 d:\lab\oop\sokoban\src\game\room.h
+	<vector>
+	"GameObject.h"
+	"Player.h"
+	"Wall.h"
+	"Box.h"
+	"Target.h"
+	"Floor.h"
+	"ObjectView.h"
+
+1464518810 d:\lab\oop\sokoban\src\game\gameobject.h
+	"ObjectType.h"
+	"Point.h"
+
+1464517887 d:\lab\oop\sokoban\src\game\point.h
+	"Direction.h"
+
+1464555137 d:\lab\oop\sokoban\src\game\direction.h
+
+1464518871 d:\lab\oop\sokoban\src\game\player.h
+	"GameObject.h"
+
+1464518905 d:\lab\oop\sokoban\src\game\wall.h
+	"GameObject.h"
+
+1464518864 d:\lab\oop\sokoban\src\game\box.h
+	"GameObject.h"
+
+1464518889 d:\lab\oop\sokoban\src\game\target.h
+	"GameObject.h"
+
+1464518881 d:\lab\oop\sokoban\src\game\floor.h
+	"GameObject.h"
+
+1464516716 d:\lab\oop\sokoban\src\game\objectview.h
+	"ObjectType.h"
+	"Point.h"
+
+1464637751 d:\lab\oop\sokoban\src\game\roomloader.h
+	<vector>
+	<string>
+	"RoomProvider.h"
+	"Room.h"
+	"Point.h"
+
+1464633786 d:\lab\oop\sokoban\src\game\roomprovider.h
+	"Room.h"
+
+1464688370 d:\lab\oop\sokoban\src\menu.h
+	<vector>
+	<SDL_ttf.h>
+	"Drawable.h"
+	"Game.h"
+	"MenuTexture.h"
+	"MenuItem.h"
+	"MenuAction.h"
+
+1464897710 d:\lab\oop\sokoban\src\menutexture.h
+	<SDL_ttf.h>
+	"Texture.h"
+
+1464897720 d:\lab\oop\sokoban\src\menuitem.h
+	"MenuTexture.h"
+	"MenuAction.h"
+
+1464692181 d:\lab\oop\sokoban\src\menuaction.h
+
+1464692017 d:\lab\oop\sokoban\src\menusettings.h
+
+1464562940 source:d:\lab\oop\sokoban\src\drawable.cpp
+	"Drawable.h"
+
+1464700809 source:d:\lab\oop\sokoban\src\game.cpp
+	"Game.h"
+	"Textures.h"
+	"GameSettings.h"
+
+1464523787 d:\lab\oop\sokoban\src\textures.h
+
+1464634478 d:\lab\oop\sokoban\src\gamesettings.h
+
+1464518932 source:d:\lab\oop\sokoban\src\game\box.cpp
+	"Box.h"
+
+1464518957 source:d:\lab\oop\sokoban\src\game\floor.cpp
+	"Floor.h"
+
+1464518826 source:d:\lab\oop\sokoban\src\game\gameobject.cpp
+	"GameObject.h"
+
+1464518965 source:d:\lab\oop\sokoban\src\game\player.cpp
+	"Player.h"
+
+1464555658 source:d:\lab\oop\sokoban\src\game\point.cpp
+	"Point.h"
+
+1464855991 source:d:\lab\oop\sokoban\src\game\room.cpp
+	"Room.h"
+
+1464562197 source:d:\lab\oop\sokoban\src\game\roomgenerator.cpp
+	"RoomGenerator.h"
+	"Room.h"
+
+1464562164 d:\lab\oop\sokoban\src\game\roomgenerator.h
+	"Room.h"
+
+1464638512 source:d:\lab\oop\sokoban\src\game\roomloader.cpp
+	"RoomLoader.h"
+	<fstream>
+	"RoomType.h"
+	"GameObject.h"
+	"Floor.h"
+	"Target.h"
+	"Wall.h"
+	"Box.h"
+
+1464632886 d:\lab\oop\sokoban\src\game\roomtype.h
+
+1464633799 source:d:\lab\oop\sokoban\src\game\roomprovider.cpp
+	"RoomProvider.h"
+
+1464518943 source:d:\lab\oop\sokoban\src\game\target.cpp
+	"Target.h"
+
+1464518916 source:d:\lab\oop\sokoban\src\game\wall.cpp
+	"Wall.h"
+
+1464854464 source:d:\lab\oop\sokoban\src\main.cpp
+	"Application.h"
+
+1464897732 source:d:\lab\oop\sokoban\src\menu.cpp
+	"Menu.h"
+	"MenuSettings.h"
+	"MenuAction.h"
+
+1464897724 source:d:\lab\oop\sokoban\src\menuitem.cpp
+	"MenuItem.h"
+
+1464897716 source:d:\lab\oop\sokoban\src\menutexture.cpp
+	"MenuTexture.h"
+	<algorithm>
+
+1464523716 source:d:\lab\oop\sokoban\src\objecttexture.cpp
+	"ObjectTexture.h"
+	<SDL.h>
+	<SDL_image.h>
+
+1464897775 source:d:\lab\oop\sokoban\src\texture.cpp
+	"Texture.h"
+
+1464441388 source:d:\lab\oop\sokoban\src\window.cpp
+	"Window.h"
+

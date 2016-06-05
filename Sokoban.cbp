@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Sokoban" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Sokoban" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Sokoban" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf" />
+		</Linker>
+		<Unit filename="src/AppSettings.h" />
+		<Unit filename="src/Application.cpp" />
+		<Unit filename="src/Application.h" />
+		<Unit filename="src/Drawable.cpp" />
+		<Unit filename="src/Drawable.h" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/Game.h" />
+		<Unit filename="src/GameSettings.h" />
+		<Unit filename="src/Menu.cpp" />
+		<Unit filename="src/Menu.h" />
+		<Unit filename="src/MenuAction.h" />
+		<Unit filename="src/MenuItem.cpp" />
+		<Unit filename="src/MenuItem.h" />
+		<Unit filename="src/MenuSettings.h" />
+		<Unit filename="src/MenuTexture.cpp" />
+		<Unit filename="src/MenuTexture.h" />
+		<Unit filename="src/ObjectTexture.cpp" />
+		<Unit filename="src/ObjectTexture.h" />
+		<Unit filename="src/Texture.cpp" />
+		<Unit filename="src/Texture.h" />
+		<Unit filename="src/Textures.h" />
+		<Unit filename="src/Window.cpp" />
+		<Unit filename="src/Window.h" />
+		<Unit filename="src/game/Box.cpp" />
+		<Unit filename="src/game/Box.h" />
+		<Unit filename="src/game/Direction.h" />
+		<Unit filename="src/game/Floor.cpp" />
+		<Unit filename="src/game/Floor.h" />
+		<Unit filename="src/game/GameObject.cpp" />
+		<Unit filename="src/game/GameObject.h" />
+		<Unit filename="src/game/ObjectType.h" />
+		<Unit filename="src/game/ObjectView.h" />
+		<Unit filename="src/game/Player.cpp" />
+		<Unit filename="src/game/Player.h" />
+		<Unit filename="src/game/Point.cpp" />
+		<Unit filename="src/game/Point.h" />
+		<Unit filename="src/game/Room.cpp" />
+		<Unit filename="src/game/Room.h" />
+		<Unit filename="src/game/RoomGenerator.cpp" />
+		<Unit filename="src/game/RoomGenerator.h" />
+		<Unit filename="src/game/RoomLoader.cpp" />
+		<Unit filename="src/game/RoomLoader.h" />
+		<Unit filename="src/game/RoomProvider.cpp" />
+		<Unit filename="src/game/RoomProvider.h" />
+		<Unit filename="src/game/RoomType.h" />
+		<Unit filename="src/game/Target.cpp" />
+		<Unit filename="src/game/Target.h" />
+		<Unit filename="src/game/Wall.cpp" />
+		<Unit filename="src/game/Wall.h" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
