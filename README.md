@@ -1,8 +1,10 @@
 # Sokoban
 ### Description
-Clone of the original Sokoban game.
+Simple clone of the Sokoban game. Was developed during work on curriculum project.
+
+Technology stack:
+* C++
+* SDL 2
 
 ### Preview
-*GIF, 239kb:*
-
-![Preview image] (demo.gif)
+[Animated GIF Image, *239kb*](demo.gif)
